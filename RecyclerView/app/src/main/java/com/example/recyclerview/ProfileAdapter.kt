@@ -13,6 +13,7 @@ import androidx.recyclerview.widget.RecyclerView
 class ProfileAdapter(val profileList: ArrayList<Profiles>) : RecyclerView.Adapter<ProfileAdapter.CustomViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ProfileAdapter.CustomViewHolder {
+        Log.d("RRView", "onCreateViewHolder")
         val view = LayoutInflater.from(parent.context).inflate(R.layout.list_item, parent,false)
         return CustomViewHolder(view).apply {
             itemView.setOnClickListener{
@@ -24,7 +25,7 @@ class ProfileAdapter(val profileList: ArrayList<Profiles>) : RecyclerView.Adapte
     }
 
     override fun onBindViewHolder(holder: ProfileAdapter.CustomViewHolder, position: Int) {
-        Log.d("RecycleView", "onBindViewHolder :$position")
+        Log.d("RRView", "onBindViewHolder :$position")
         holder.gender.setImageResource(profileList.get(position).gender)
         holder.name.text = profileList.get(position).name
         holder.age.text = profileList.get(position).age.toString() // profile 클래스 파일에서 Int형 값이기 때문에 문자열로 변환후 할당

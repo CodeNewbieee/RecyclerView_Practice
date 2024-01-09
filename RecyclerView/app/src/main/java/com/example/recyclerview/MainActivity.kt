@@ -13,15 +13,25 @@ class MainActivity : AppCompatActivity() {
 
         val profileList = arrayListOf(
             Profiles(R.drawable.man,"콩진호",25,"의사"),
+            Profiles(R.drawable.man,"콩진호",25,"의사"),
+            Profiles(R.drawable.woman,"문수경", 30, "기타리스트"),
             Profiles(R.drawable.woman,"문수경", 30, "기타리스트"),
             Profiles(R.drawable.woman,"신예지", 28, "싱어"),
+            Profiles(R.drawable.woman,"신예지", 28, "싱어"),
             Profiles(R.drawable.man,"임요환",25,"프로그래머"),
+            Profiles(R.drawable.man,"임요환",25,"프로그래머"),
+            Profiles(R.drawable.man,"김진수",17,"학생"),
             Profiles(R.drawable.man,"김진수",17,"학생"),
             Profiles(R.drawable.woman,"문복희", 38, "유튜버"),
             Profiles(R.drawable.man,"손흥민",29,"축구선수"),
-            Profiles(R.drawable.woman,"박수유", 42, "주부"),
+            Profiles(R.drawable.woman,"박유진", 42, "주부"),
             Profiles(R.drawable.man,"서장훈",34,"농구선수"),
             Profiles(R.drawable.woman,"김예쓸", 38, "앱개발자"),
+            Profiles(R.drawable.woman,"최수정", 38, "프론트엔드개발자"),
+            Profiles(R.drawable.woman,"최수정", 38, "프론트엔드개발자"),
+            Profiles(R.drawable.woman,"최수정", 38, "프론트엔드개발자"),
+            Profiles(R.drawable.woman,"최수정", 38, "프론트엔드개발자"),
+            Profiles(R.drawable.woman,"최수정", 38, "프론트엔드개발자"),
             Profiles(R.drawable.woman,"최수정", 38, "프론트엔드개발자")
         )
 
